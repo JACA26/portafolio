@@ -1,0 +1,41 @@
+.container-2{
+    display: flex;
+    background-image: url(https://res.cloudinary.com/ds44jxjqj/image/upload/v1632839147/portafolio/oisbltjn6rep3xgvwo8d.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.img-me{
+    background:rgba(90, 91, 97, 0.2);
+    padding: 50px;
+    width: 500px;
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+}
+
+.container-presentation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background:rgba(90, 91, 97, 0.2);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    z-index: 1;
+    .txt-me{
+        color: rgb(49, 129, 194);
+        margin-left:10px;
+        text-align: center;
+        font-family: 'Source Code Pro', sans-serif;
+    }
+    .txt-me2{
+        color: rgb(255, 255, 255);
+        margin-left:10px;
+        text-align: center;
+        font-family: 'Source Code Pro', sans-serif;
+    }
+}

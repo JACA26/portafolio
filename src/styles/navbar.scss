@@ -1,0 +1,31 @@
+.nav-custom {
+    // width:100%;
+    width: 100vw;
+    position: fixed;
+    background-color: rgba(90, 91, 97, 0.5);
+    font-size: 20px;
+    color: #fff;
+    z-index: 2;
+}
+
+.nav-link{
+    color: rgb(188, 207, 231);
+}
+
+.nav-link:hover{
+    color: #c78d0f;
+    border-bottom: 2px solid #fff;
+}
+
+.img-logo{
+    width: 130px;
+    height: 60px;
+}
+
+.nav-item{
+    margin-right: 10px;
+}
+
+.nav-toggler {
+    background-color: #002642;
+}

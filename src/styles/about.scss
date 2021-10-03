@@ -1,0 +1,74 @@
+
+.bg-about{
+    background-image: url(https://res.cloudinary.com/ds44jxjqj/image/upload/v1632934826/portafolio/elxh0ho0elsakyqlvgjt.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    justify-content: center;
+    width: 100%;
+}
+
+.title-about{
+    display: inline-block;
+    text-align: center;
+    font-family: Arial, 'Source Code Pro', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    /* // border-bottom: 2px solid #000; */
+    color: rgb(46, 45, 45);
+}
+
+.img-photo{
+    width: 200px;
+    border-radius: 15px;
+}
+
+.about-me-text-container{
+    background:rgba(55, 56, 59, 0.1);
+    padding: 20px;
+    border-radius: 15px;
+    backdrop-filter: blur(5px);
+}
+
+.txt-about{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.hability-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 10%;
+    align-items: center;
+    margin: 10px;
+    font-size: 20px;
+    background: rgba(105, 107, 139, 0.2);
+    backdrop-filter: blur(10px);
+}
+
+.hability-container:hover {
+    animation: pulse;
+    animation-duration: 1s;
+}
+
+.txt-habilities {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    /* // font-size:20px; */
+    color: rgb(0, 0, 0);
+    /* // color: #216A9E; */
+}
+
+.btn-custom{
+    background-color:#E94F37;
+    border-color: rgb(235, 141, 104);
+}
+
+.btn-custom:hover{
+    background-color: #e03014;
+    border-color: #000;
+}
+

@@ -1,3 +1,7 @@
+.skill-section {
+    position: relative;
+}
+
 .icon-description{
     color: #000;
 }
@@ -11,3 +15,14 @@
     width: 150px;
 }
 
+.waveCustom{
+    z-index: 100;
+    width: 100%;
+}
+
+.title-section {
+    color: rgb(39, 38, 38);
+    z-index: 101;
+    text-align: center;
+    font-size: 50px;
+}

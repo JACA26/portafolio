@@ -31,7 +31,7 @@ const NavBar = () => {
     
     return (
         <>
-            <nav className="navbar navbar-expand-md nav-custom animate__animated animate__fadeInDown">
+            <nav className="navbar navbar-expand-md nav-custom animate__animated animate__fadeInDown animate__delay-1s">
                 <div className="container-fluid">
                     
                     <div className="navbar-brand">
@@ -46,25 +46,25 @@ const NavBar = () => {
                         <div className="navbar-nav ms-auto my-2 my-lg-0 navbar-nav-scroll">
                                 
                                 <li className="nav-item">
-                                    <Link className="nav-link" to="about"> 
+                                    <Link activeClass="link-active" className="nav-link" to="about" spy={true} smooth={true} offset={-100}> 
                                         Acerca de
                                     </Link>
                                 </li>
                                 
-                                <li className="nav-item">
-                                    <Link className="nav-link"> 
+                                <li className="nav-item" >
+                                    <Link activeClass="link-active" className="nav-link" to="skills" spy={true} smooth={true}> 
                                         Habilidades
                                     </Link>
                                 </li>
                                 
                                 <li className="nav-item">
-                                    <Link className="nav-link"> 
+                                    <Link activeClass="link-active" className="nav-link" to="projects" spy={true} smooth={true}> 
                                         Proyectos
                                     </Link>
                                 </li>
                                 
                                 <li className="nav-item">
-                                    <Link className="nav-link"> 
+                                    <Link activeClass="link-active" className="nav-link" to="contact" spy={true} smooth={true}> 
                                         Contacto
                                     </Link>
                                 </li>

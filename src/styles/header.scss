@@ -1,6 +1,11 @@
-.container-2{
+.container-2 {
     display: flex;
-    background-image: url(https://res.cloudinary.com/ds44jxjqj/image/upload/v1632839147/portafolio/oisbltjn6rep3xgvwo8d.png);
+    /* Gradient Effect */
+    background: #000046;
+    background: -webkit-linear-gradient(to right, rgba(28, 181, 224, 0.561), rgba(0, 0, 70, 0.561)), url(https://res.cloudinary.com/ds44jxjqj/image/upload/v1632839147/portafolio/oisbltjn6rep3xgvwo8d.png);
+    background: linear-gradient(to right, rgba(28, 181, 224, 0.561), rgba(0, 0, 70, 0.568)), url(https://res.cloudinary.com/ds44jxjqj/image/upload/v1632839147/portafolio/oisbltjn6rep3xgvwo8d.png);
+    
+    // background-image: url(https://res.cloudinary.com/ds44jxjqj/image/upload/v1632839147/portafolio/oisbltjn6rep3xgvwo8d.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -9,8 +14,8 @@
     height: 100vh;
 }
 
-.img-me{
-    background:rgba(90, 91, 97, 0.2);
+.img-me {
+    background: rgba(90, 91, 97, 0.2);
     padding: 50px;
     width: 500px;
     border-radius: 15px;
@@ -22,20 +27,20 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background:rgba(90, 91, 97, 0.2);
+    background: rgba(90, 91, 97, 0.2);
     backdrop-filter: blur(10px);
     border-radius: 10px;
     z-index: 1;
-    .txt-me{
+    .txt-me {
         color: rgb(49, 129, 194);
-        margin-left:10px;
+        margin-left: 10px;
         text-align: center;
-        font-family: 'Source Code Pro', sans-serif;
+        font-family: "Source Code Pro", sans-serif;
     }
-    .txt-me2{
+    .txt-me2 {
         color: rgb(255, 255, 255);
-        margin-left:10px;
+        margin-left: 10px;
         text-align: center;
-        font-family: 'Source Code Pro', sans-serif;
+        font-family: "Source Code Pro", sans-serif;
     }
 }

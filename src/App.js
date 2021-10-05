@@ -4,6 +4,7 @@ import About from "./components/About";
 import Header from "./components/Header";
 import Skills from "./components/Skills";
 import "animate.css";
+import Projects from "./components/Projects";
 
 const App = () => {
 	
@@ -18,6 +19,7 @@ const App = () => {
             <Header />
             <About />
 			<Skills />
+            <Projects />
         </>
     );
 };

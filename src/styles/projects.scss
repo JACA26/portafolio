@@ -2,23 +2,24 @@
     // width: 300px;
 }
 
+/* Custom ImageHover CSS Library */
+
 [class^='imghvr-'],
 [class*=' imghvr-'] {
-    background-color: #b481813b;
+    background-color: #b4818100;
 }
 
-.hover-container{
-    border-radius: 10px;
+[class^="imghvr-"] a,
+[class*=" imghvr-"] a {
+    position: static;
 }
-
-/* .hover-details {
-    background-color: rgba(16, 47, 149, 0.507);
-    // background-color: #135796;
-} */
 
 [class^='imghvr-'] > figcaption,
 [class*=' imghvr-'] > figcaption {
-    background-color: rgba(16, 47, 149, 0.507);
+    // background-color: rgba(16, 47, 149, 0.507);
+    background: #000046;
+    background: -webkit-linear-gradient(to right, rgba(0, 0, 70, 0.787), rgba(28, 181, 224, 0.787)); 
+    background: linear-gradient(to right,rgba(0, 0, 70, 0.787), rgba(28, 181, 224, 0.787));
 }
 
 .imghvr-zoom-out:hover > img {
@@ -29,7 +30,7 @@
 }
 
 
-/* Custom animation for img's */
+/* Custom animation for img's show behind the hover div */
 @keyframes imgAnimate {
     0%   {
         -webkit-transform: scale(1);
@@ -60,4 +61,50 @@
         transform: scale(1);
         opacity: 1;
     }
+}
+
+
+.hover-container{
+    border-radius: 10px;
+}
+
+.hover-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    p{
+        color:#e8e8fd;
+    }
+    // align-items: center;
+}
+
+.circles-button-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.circle-icon{
+    // display: block;
+    // position: static;
+    border-radius: 100%;
+    background: rgb(243, 236, 236);
+    padding: 10px;
+    // width: 50px;
+}
+
+.circle-icon:hover{
+    background: rgb(163, 161, 161);
+}
+
+.circle-icon-2{
+    // display: block;
+    // position: static;
+    border-radius: 100%;
+    background: rgb(255, 255, 255);
+    padding: 10px;
+    // width: 50px;
+}
+
+.circle-icon-2:hover{
+    background: rgb(163, 161, 161);
 }
